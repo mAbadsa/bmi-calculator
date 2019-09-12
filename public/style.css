@@ -1,0 +1,35 @@
+body{
+    background-color: #252525;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin: 0 auto;
+    background-color: #656565;
+    padding: 20px;
+    text-align: center;
+}
+
+.container form input,
+.container form button {
+    width: 70%;
+    height: 50px;
+    padding: 5px 30px;
+    background-color: #252525;
+    color: #e5e5e5;
+    border: 0.5px solid #a5a5a5;
+    border-radius: 50px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    box-sizing: border-box;
+    outline: none;
+}
+.container form button {
+    background-color: #0d9c31;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.container form button:hover {
+    background-color: #1db80f;
+    transition: 0.4s;
+}
